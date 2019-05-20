@@ -11,12 +11,12 @@ class SearchBar extends Component {
     }
   render() {
     return (
-      <div className="search-bar ui segment" style={{background:"black"}}>
-      <form onSubmit={this.onFormSubmit} className="ui form" style={{background:"black"}}>
+      <div className="search-bar ui segment">
+      <form onSubmit={this.onFormSubmit} className="ui form" >
       <div className="field">
      <label>Video Search</label>
      <input 
-     style={{background:"black",borderColor:"gray",color:"gray"}}
+    //  style={{background:"black",borderColor:"gray",color:"gray"}}
      type="text" 
      value={this.state.term} 
      onChange={this.onInputChange}
